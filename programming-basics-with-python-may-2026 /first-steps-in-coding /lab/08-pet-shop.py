@@ -8,4 +8,4 @@ dog_food_total = dog_food * dog_food_pcs
 cat_food_total = cat_food * cat_food_pcs
 total_order = dog_food_total + cat_food_total
 
-print(f'{total_order} lv.')
+print(f"{total_order} lv.")
