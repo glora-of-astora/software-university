@@ -6,10 +6,10 @@ N = int(input())
 valid_iterations = 0
 is_found = False
 
-for digit1 in range(K, 8 + 1):  # 7, 8
-    for digit2 in range(9, L - 1, -1):  # 9, 8, 7, 6
-        for digit3 in range(M, 8 + 1):  # 8
-            for digit4 in range(9, N - 1, -1):  # 9, 8, 7, 6, 5
+for digit1 in range(K, 8 + 1):
+    for digit2 in range(9, L - 1, -1):
+        for digit3 in range(M, 8 + 1):
+            for digit4 in range(9, N - 1, -1):
 
                 if ((digit1 % 2 == 0) and (digit3 % 2 == 0) and (digit2 % 2 != 0) and (digit4 % 2 != 0)):
 
